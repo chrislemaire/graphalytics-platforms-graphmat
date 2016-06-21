@@ -2,12 +2,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>nl.tudelft.granula</groupId>
+  <groupId>nl.tudelft.pds.granula</groupId>
   <artifactId>granula-model-graphmat</artifactId>
   <version>0.1.2</version>
   <packaging>jar</packaging>
 
-  <name>Graphalytics Platform Graphmat - Granula Model</name>
+  <name>Graphalytics Platform GraphMat - Granula Model</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -24,12 +24,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>nl.tudelft.granula</groupId>
-      <artifactId>granula-modeller</artifactId>
-      <version>0.1.2</version>
-    </dependency>
-    <dependency>
-      <groupId>nl.tudelft.granula</groupId>
+      <groupId>nl.tudelft.pds.granula</groupId>
       <artifactId>granula-archiver</artifactId>
       <version>0.1.2</version>
     </dependency>
@@ -59,7 +54,7 @@
             <configuration>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>nl.tudelft.granula.archiver.GranulaArchiver</mainClass>
+                  <mainClass>nl.tudelft.pds.granula.GranulaArchiver</mainClass>
                 </transformer>
               </transformers>
               <dependencyReducedPomLocation>${project.build.directory}/dependency-reduced-pom.xml</dependencyReducedPomLocation>

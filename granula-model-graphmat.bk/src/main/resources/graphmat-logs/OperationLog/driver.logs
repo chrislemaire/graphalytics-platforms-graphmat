@@ -22,7 +22,7 @@ Completed reading A from memory in 3.667209 seconds.
 Completed reading A from file in 3.806746 seconds.
 GRANULA - OperationUuid:7222815480849057907 ActorType:GraphMat ActorId:Id.Unique MissionType:LoadGraph MissionId:Id.Unique InfoName:EndTime InfoValue:1455717024816 Timestamp:1455717024816
 GRANULA - OperationUuid:8408462745175416063 ActorType:GraphMat ActorId:Id.Unique MissionType:ProcessGraph MissionId:Id.Unique InfoName:StartTime InfoValue:1455717024817 Timestamp:1455717024817
-Completed 10 iterations
+Completed 10 iterations 
 GRANULA - OperationUuid:8408462745175416063 ActorType:GraphMat ActorId:Id.Unique MissionType:ProcessGraph MissionId:Id.Unique InfoName:EndTime InfoValue:1455717024880 Timestamp:1455717024880
 GRANULA - OperationUuid:3091884191388096748 ActorType:GraphMat ActorId:Id.Unique MissionType:OffloadGraph MissionId:Id.Unique InfoName:StartTime InfoValue:1455717024880 Timestamp:1455717024880
 GRANULA - OperationUuid:3091884191388096748 ActorType:GraphMat ActorId:Id.Unique MissionType:OffloadGraph MissionId:Id.Unique InfoName:EndTime InfoValue:1455717028018 Timestamp:1455717028018
