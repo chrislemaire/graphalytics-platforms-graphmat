@@ -69,7 +69,10 @@ public class GraphMat extends PlatformModel {
             Job job = platform.getJob();
             Overview overview = job.getOverview();
 
-            overview.setDescription("This is a Graphmat job.");
+            overview.setDescription("GraphMat.D, developed by Intel, " +
+                    "maps Pregel-like vertex programs to high-performance sparse matrix operations, " +
+                    "a well-developed area of HPC. GraphMat supports two different backends which need to be selected manually: " +
+                    "a single-machine shared-memory backend and a distributed MPI-based backend.");
 
             Operation jobOper = platform.findOperation(Type.GraphMat, Type.Job);
             jobOper.parentId = null;
