@@ -20,7 +20,7 @@ import nl.tudelft.granula.modeller.Type;
 import nl.tudelft.granula.modeller.rule.derivation.SimpleSummaryDerivation;
 import nl.tudelft.granula.modeller.rule.derivation.time.*;
 import nl.tudelft.granula.modeller.rule.linking.EmptyLinking;
-import nl.tudelft.granula.modeller.rule.visual.MainInfoTableVisualization;
+import nl.tudelft.granula.modeller.rule.visual.TableVisualization;
 
 import java.util.ArrayList;
 
@@ -40,9 +40,8 @@ public class GraphmatJob extends nl.tudelft.granula.modeller.platform.operation.
         String summary = "A Graphmat.D job executes three child operations: LoadGraph, ProcessGraph, and OffloadGraph. ";
         addInfoDerivation(new SimpleSummaryDerivation(11, summary));
 
-        addVisualDerivation(new MainInfoTableVisualization(1,
+        addVisualDerivation(new TableVisualization(1, "MainInfo",
                 new ArrayList<String>() {{
-//                    add("InputMethod");
                 }}));
     }
 
